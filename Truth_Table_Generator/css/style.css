@@ -1,0 +1,159 @@
+body{
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 18px;
+}
+.gene{
+    width: 700px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid darkgray;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+.explain{
+    position: relative;
+    display: none;
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    text-align: left;
+    background-color: #eee;
+    border: 1px solid darkgray;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    align-items: center;
+    margin: 15px 0;
+}
+.explain p{
+    line-height: 40px;
+}
+.explain span{
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 10px;
+    color: #333;
+    border: 1px solid darkgray;
+}
+input{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    width: 85%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    padding: 10px;
+    border: 1px solid darkgray;
+}
+th{
+    background-color: #ccc;
+}
+td:hover{
+    cursor: pointer;
+    background-color: #eee;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: darkgray;
+    margin: 10px 0;
+    left: 0;
+}
+.box{
+    display: flex;
+    width: 100%;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+    align-items: center;
+    padding: 10px 20px;
+}
+.buttons{
+    display: none;
+    gap: 10px;
+    margin: 20px 0;
+    align-self: flex-start;
+}
+.buttons button{
+    outline: none;
+    border: 1px solid darkgray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: #eee;
+}
+#copy{
+    opacity: 0;
+}
+.msg{
+    position: fixed;
+    top: 20px;
+    right: -200px;
+    transition: 400ms ease;
+    background-color: #23ce42;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+.msg p{
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#possop{
+    opacity: "0";
+}
+#expressionsBox{
+    display: none;
+    margin: 20px 0;
+    border: 1px solid darkgray;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#expressionsBox p span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.box span{
+    position: absolute;
+    background-color: #111;
+    color: #fff;
+    width: 15%;
+    padding: 5px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 12px;
+    border-radius: 5px;
+    right: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.rights p{
+    color: #000;
+}
+.rights p a{
+    text-decoration: none;
+    color: #444;
+}
