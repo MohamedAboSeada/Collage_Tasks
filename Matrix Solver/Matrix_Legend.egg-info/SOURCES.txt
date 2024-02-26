@@ -1,0 +1,5 @@
+setup.py
+Matrix_Legend.egg-info/PKG-INFO
+Matrix_Legend.egg-info/SOURCES.txt
+Matrix_Legend.egg-info/dependency_links.txt
+Matrix_Legend.egg-info/top_level.txt
