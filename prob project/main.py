@@ -52,7 +52,6 @@ class PlotWin(QDialog):
     def __init__(self):
         super().__init__()
         loadUi('ui/design.ui', self)
-        self.intilize_comp()
         
         self.figure = plt.figure()
         self.canvas = FigureCanvas(self.figure)
@@ -132,12 +131,6 @@ class PlotWin(QDialog):
             print(e)
         else:
             QMessageBox.information(self,"info",f"image saved successfully!")
-    
-    def intilize_comp(self):
-        perview_data = pd.DataFrame({None : (" "," "," ")})
-        model = DataFrameModel(perview_data)
-        self.pre_data.setModel(model)
-        self.freq_dist.setModel(model)
 
 def main():
     app = QApplication(sys.argv)
