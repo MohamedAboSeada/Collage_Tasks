@@ -3,7 +3,6 @@ from PyQt5.QtCore import Qt, QAbstractTableModel, pyqtSignal
 from PyQt5.QtWidgets import QApplication, QDialog,QMessageBox, QFileDialog, QHBoxLayout, QVBoxLayout, QComboBox, QPushButton, QTableView
 from PyQt5.uic import loadUi
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 
